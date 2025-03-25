@@ -36,7 +36,23 @@ p{
     font-weight: 500;
     color: #122346;
 }
+.btn {
+    display: inline-block;
+    background-color:#ED1C2B; 
+    color: white;
+    padding: 15px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 32px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
 
+.btn:hover {
+    background-color: #DC2626;
+}
 .hero-container {
     max-width: 1920px;
     margin: 0 auto;
@@ -100,4 +116,111 @@ p{
 .join-wrapper h5{
     margin-top: 32px;
     margin-bottom: 56px;
+}
+
+.register-container {
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+.register-wrapper{
+    display: flex;
+}
+.register-content{
+    width: 50%;
+
+}
+.register-image {
+    width: 50%;
+    background: url('./assets/register.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    height: 1390px;
+}
+.register-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 385px;
+    z-index: 2;
+    width: 50%;
+}
+.register-content-wrapper h2{
+    margin-top: 100px;
+    margin-bottom: 65px;
+}
+.register-cards{
+    width: 100%;
+    margin-bottom: 26px;
+}
+.register-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center;
+    z-index: 2; */
+}
+.r-card{
+    width: 55%;
+    background-color: #FAF7F0;
+    border-radius: 20px;
+    padding: 23px 43px 63px 47px;
+    margin-bottom: 20px;
+}
+.r-card-2{
+    width: 79%;
+    background-color: #FAF7F0;
+    border-radius: 20px;
+    /* padding: 23px 43px 63px 47px; */
+    margin-bottom: 20px;
+    /* background: azure; */
+    padding-left: 50px;
+    padding-right: 23px;
+    padding-bottom: 75px;
+}
+.r-card-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.r-card-head{
+    margin-bottom: 42px;
+}
+.r-card-head-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.r-card-content-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.r-card-content-wrapper p{
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+.r-card-list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: lower-alpha;
+    
+}
+.r-card-list li {
+    font-size: 22px;
+    font-weight: 400;
+    color: #122346;
+    margin-left: 78px;
+    padding-left: 17px;
+}
+.r-card-list li::marker{
+    font-size: 32px;
+    font-weight: 700;
+    color: #122346;
+}
+.reg-btn {
+    position: absolute;
+    bottom: 30px;
+    left: 790px;
+    z-index: 2;
 }
