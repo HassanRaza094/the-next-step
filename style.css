@@ -224,3 +224,55 @@ p{
     left: 790px;
     z-index: 2;
 }
+.tour {
+    margin-top: 60px;
+    margin-bottom: 65px;
+}
+.tour-container{
+    max-width: 1416px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #122346;
+    padding: 46px 44px;
+}
+.tour-wrapper{
+    display: flex;
+}
+.tour-content{
+    width: 50%;
+    padding-top: 58px;
+    padding-left: 50px;
+    background-color: #FFFFFF;
+}
+.tour-content h2{
+   margin-bottom: 65px
+}
+.tour-content p{
+   max-width: 560px;
+   line-height: 40px;
+}
+.tour-img{
+    width: 50%;
+}
+
+.gallery-container {
+    max-width: 1544px;
+    margin: 0 auto;
+    width: 100%;
+}
+.gallery-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.gallery-item {
+    flex: 1 1 calc(25% - 30px);
+    max-width: 400px;
+    margin-bottom: 75px;
+}
+
+.gallery-item img {
+    width: 100%;
+    object-fit: cover;
+}
