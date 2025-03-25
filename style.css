@@ -54,3 +54,17 @@ p{
 .hero-sub {
     max-width: 500px;
 }
+
+.banner-container{
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #122346;
+}
+.banner-img{
+    padding-top:20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
