@@ -35,6 +35,7 @@ p{
     font-size: 22px;
     font-weight: 500;
     color: #122346;
+    line-height: 40px;
 }
 .btn {
     display: inline-block;
@@ -111,7 +112,7 @@ p{
 .join-wrapper p{
     font-size: 24px;
     max-width: 1092px;
-    line-height: 40px;
+     
 }
 .join-wrapper h5{
     margin-top: 32px;
@@ -249,12 +250,15 @@ p{
 }
 .tour-content p{
    max-width: 560px;
-   line-height: 40px;
+    
 }
 .tour-img{
     width: 50%;
 }
 
+.gallery{
+    background-color: #FAF7F0;
+}
 .gallery-container {
     max-width: 1544px;
     margin: 0 auto;
@@ -275,4 +279,47 @@ p{
 .gallery-item img {
     width: 100%;
     object-fit: cover;
+}
+
+.impact-container{
+    max-width: 1328px;
+    margin: 0 auto;
+    width: 100%;
+}
+.impact-container p{
+    max-width: 975px;
+}
+.impact-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.impact-wrapper h2{
+   margin-bottom: 55px
+}
+.impact-cards{
+    margin-top: 65px;
+    margin-bottom: 55px;
+    width: 100%;    
+}
+.impact-card-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.impact-card-content{
+    width: 30%;
+}
+.impact-card-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.impact-card-img{
+    width: 100%;
+    margin-bottom: 44px;
+}
+.impact-card-content p{
+    max-width: 345px;
 }
