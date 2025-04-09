@@ -37,6 +37,11 @@ p{
     color: #122346;
     line-height: 40px;
 }
+.container{
+    max-width: 1416px;
+    width: 100%;
+    margin: 0 auto;
+}
 .btn {
     display: inline-block;
     background-color:#ED1C2B; 
@@ -72,6 +77,7 @@ background-position: center;
 .hero-wrapper{
     display: flex;
     flex-direction: column;
+    padding: 120px 0px 215px 270px;
 }
 .hero-title{
     max-width: 635px;
@@ -97,6 +103,9 @@ background-position: center;
     max-width: 1920px;
     margin: 0 auto;
     width: 100%;
+}
+.join{
+    background-color: #FAF7F0;
 }
 .join-wrapper{
     display: flex;
@@ -241,6 +250,8 @@ background-position: center;
 }
 .tour-wrapper{
     display: flex;
+    background-color: #122346;
+    padding: 46px 44px;
 }
 .tour-content{
     width: 50%;
@@ -288,10 +299,13 @@ background-position: center;
     object-fit: cover;
 }
 
-.impact-container{
+/* .impact-container{
     max-width: 1328px;
     margin: 0 auto;
     width: 100%;
+} */
+.impact{
+    margin-top: 35px;
 }
 .impact-container p{
     max-width: 975px;
@@ -306,13 +320,13 @@ background-position: center;
    margin-bottom: 55px
 }
 .impact-cards{
-    margin-top: 65px;
     margin-bottom: 55px;
     width: 100%;    
 }
-.impact-card-wrapper{
+.impact-card-wrapper {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 150px;
 }
 .impact-card-content{
     width: 30%;
@@ -329,4 +343,17 @@ background-position: center;
 }
 .impact-card-content p{
     max-width: 345px;
+}
+.impact-paras{
+    max-width: 975px;
+    margin-bottom: 55px;
+}
+
+.start-btn-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.start-btn{
+    padding: 37px 76px;
 }
